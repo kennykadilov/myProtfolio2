@@ -19,11 +19,11 @@
             </div>
             <div class="col-9">
                <div class="topnav" id="myTopnav">
-                  <a href="index.html">About</a>
-                  <a href="#teaching" class="active">Teaching</a>
-                  <a href="swiftNotes.html">Notes</a>
-                  <a href="#resume">Resume</a>
-                  <a href="#protfolio">Protfolio</a>
+                 <a href="index.html">About</a>
+                 <a href="teaching.html" class="active">Teaching</a>
+                 <a href="notes.html">Notes</a>
+                 <a href="resume.html">Resume</a>
+                 <!-- <a href="protfolio.html">Protfolio</a> -->
                   <a href="javascript:void(0);" class="icon">
                   <span onclick="openNav()"> &#9776; </span>
                   </a>
@@ -32,20 +32,62 @@
          </div>
          <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Teaching</a>
-            <a href="#">Notes</a>
-            <a href="#">Resume</a>
-            <a href="#">Protfolio</a>
+            <a href="index.html">About</a>
+            <a href="teaching.html" class="active">Teaching</a>
+            <a href="notes.html">Notes</a>
+            <a href="resume.html">Resume</a>
+            <!-- <a href="protfolio.html">Protfolio</a> -->
          </div>
       </nav>
 
       <section>
          <div class="row">
             <div class="col-12 teaching-statment">
+              <h1>Teaching Statment</h1>
+<div class="center">
+
+  <button class="collapsible">Teaching Experience</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="collapsible">Teaching Methodology</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="collapsible">Teaching Interests</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="collapsible">Advising Approach</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+</div>
+
+
             </div>
          </div>
+
+         <script>
+         var coll = document.getElementsByClassName("collapsible");
+         var i;
+
+         for (i = 0; i < coll.length; i++) {
+           coll[i].addEventListener("click", function() {
+             this.classList.toggle("active");
+             var content = this.nextElementSibling;
+             if (content.style.maxHeight){
+               content.style.maxHeight = null;
+             } else {
+               content.style.maxHeight = content.scrollHeight + "px";
+             }
+           });
+         }
+         </script>
       </section>
+      <div class="back-image">
+
 
        <section class="literacy">
          <div class="row">
@@ -265,6 +307,7 @@
            </div>
 
    </section>
+     </div>
 
       <footer>
          <div class="row">
@@ -281,7 +324,7 @@
                   <li><a href="#teaching"  class="active">Teaching</a></li>
                   <li><a href="swiftNotes.html">Notes</a></li>
                   <li><a href="#resume">Resume</a></li>
-                  <li><a href="#protfolio">Protfolio</a></li>
+                  <!-- <li><a href="#protfolio">Protfolio</a></li> -->
                </ul>
             </div>
             <div class="col-4">
