@@ -43,6 +43,11 @@ body {
 
 }
 
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+
 .logo h1{
   margin-bottom: 0;
 }
@@ -487,10 +492,10 @@ position: relative;
 .teaching-statment p{
 font-size: large;
 margin: auto;
-padding: 2%;
+padding: 3%;
 background-color: rgba(255, 255, 255, 0.9);
 font-weight: lighter;
-text-align: left;
+text-align: center;
 box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 border-radius: 33px;
 color: black;
@@ -912,7 +917,7 @@ font-size: large;
   flex-direction: column-reverse;
 }
 
-.css .row{
+.cpp .row{
   display: flex;
   flex-direction: column-reverse;
 }
