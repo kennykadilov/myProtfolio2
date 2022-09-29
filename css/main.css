@@ -970,3 +970,16 @@ left: 0%;
 }
 
 }
+
+.float-container {
+  padding: 3%;
+  height: 800px;
+}
+
+.caseStudy{
+  width: 50%;
+  float: left;
+  padding: 3%;
+}
+
+
