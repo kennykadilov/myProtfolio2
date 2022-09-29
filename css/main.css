@@ -972,12 +972,11 @@ left: 0%;
 }
 
 .float-container {
-  padding: 3%;
-  height: 800px;
+  height: 850px;
 }
 
 .caseStudy{
-  width: 50%;
+  width: 33%;
   float: left;
   padding: 3%;
 }
